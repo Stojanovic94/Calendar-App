@@ -8,7 +8,7 @@
     <style>
         /* Highlight today's date */
         .today {
-            background-color: #ffffcc; /* Light yellow */
+            background-color: #ffffcc;
         }
     </style>
 </head>
@@ -45,12 +45,16 @@
             <h2>Add/Edit Event</h2>
             <label for="event-title">Title:</label>
             <input type="text" id="event-title" name="event-title" required>
+            
             <label for="event-date">Date:</label>
             <input type="date" id="event-date" name="event-date" required>
+            
             <label for="event-time">Time:</label>
             <input type="time" id="event-time" name="event-time">
+            
             <label for="event-reminder">Reminder:</label>
             <input type="checkbox" id="event-reminder" name="event-reminder">
+            
             <div class="form-buttons">
                 <button type="submit" class="button">Save Event</button>
                 <button type="button" id="close-dialog" class="button">Cancel</button>
